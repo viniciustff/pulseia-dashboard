@@ -911,8 +911,8 @@ export default function Website({ onNavigateToLogin }) {
               </div>
 
               <div className="flex items-baseline gap-1.5">
-                <span className="text-4xl font-black text-white">R$ 399</span>
-                <span className="text-slate-500 text-xs font-bold">/mês + setup</span>
+                <span className="text-2xl font-black text-white">Sob Consulta</span>
+                <span className="text-slate-500 text-xs font-bold">/Foco em Validação</span>
               </div>
 
               <div className="h-px bg-slate-900"></div>
@@ -943,7 +943,7 @@ export default function Website({ onNavigateToLogin }) {
               onClick={() => setIsModalOpen(true)}
               className="mt-8 w-full py-4 bg-slate-900 hover:bg-slate-900/80 text-slate-200 border border-slate-800 hover:border-slate-700 font-bold rounded-2xl text-xs md:text-sm transition-all cursor-pointer"
             >
-              Ativar Pulse Express
+              Consultar Disponibilidade
             </button>
           </div>
 
@@ -964,8 +964,8 @@ export default function Website({ onNavigateToLogin }) {
               </div>
 
               <div className="flex items-baseline gap-1.5">
-                <span className="text-4xl font-black text-white">R$ 599</span>
-                <span className="text-slate-500 text-xs font-bold">/mês + setup</span>
+                <span className="text-2xl font-black text-[#00ff87]">Sob Consulta</span>
+                <span className="text-slate-500 text-xs font-bold">/Escala & Performance</span>
               </div>
 
               <div className="h-px bg-slate-900"></div>
@@ -998,7 +998,7 @@ export default function Website({ onNavigateToLogin }) {
               onClick={() => setIsModalOpen(true)}
               className="mt-8 w-full py-4 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-extrabold rounded-2xl text-xs md:text-sm shadow-lg shadow-emerald-500/10 transition-all cursor-pointer border border-emerald-500/10"
             >
-              Ativar Pulse Pro
+              Solicitar Setup Comercial
             </button>
           </div>
         </div>
