@@ -172,7 +172,7 @@ export default function Website({ onNavigateToLogin }) {
   const humanCostTotal = salesTeamSize * (humanSalary + 600); // Salário + licenças e ferramentas por pessoa (Ex: CRM, telefonia)
   
   // Custo da Pulse IA: setup básico (900) + custo variável por lead processado (R$ 0,80)
-  const pulseCostTotal = 790 + (leadsCount * 0.60);
+  const pulseCostTotal = 399 + (leadsCount * 0.60);
   const monthlySavings = Math.max(0, humanCostTotal - pulseCostTotal);
 
   // Estimativa de ganho de vendas pela resposta rápida (leads atendidos em < 1 min convertem ~65% mais que respondidos após 30 min)
@@ -911,7 +911,7 @@ export default function Website({ onNavigateToLogin }) {
               </div>
 
               <div className="flex items-baseline gap-1.5">
-                <span className="text-4xl font-black text-white">R$ 790</span>
+                <span className="text-4xl font-black text-white">R$ 399</span>
                 <span className="text-slate-500 text-xs font-bold">/mês + setup</span>
               </div>
 
@@ -964,7 +964,7 @@ export default function Website({ onNavigateToLogin }) {
               </div>
 
               <div className="flex items-baseline gap-1.5">
-                <span className="text-4xl font-black text-white">R$ 1.490</span>
+                <span className="text-4xl font-black text-white">R$ 599</span>
                 <span className="text-slate-500 text-xs font-bold">/mês + setup</span>
               </div>
 
